@@ -1,0 +1,58 @@
+#root {
+    -fx-background-color: #353b3c;
+    -fx-text-fill: #eef0f2;
+}
+
+.root {
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+}
+
+.cbx {
+    -fx-text-fill: #eef0f2;
+    -fx-cursor: hand;
+}
+
+.cbx .box {
+    -fx-border-color: #a2999e;
+    -fx-border-radius: 0px;
+    -fx-background-color: #353b3c;
+    -fx-padding: 2px;
+    -fx-border-width: 3px;
+}
+
+.cbx .mark {
+    -fx-background-color: transparent;
+}
+
+.cbx:selected .box {
+    -fx-background-color: #c6c7c4;
+    -fx-background-insets: 5px;
+    -fx-background-radius: 0px;
+}
+
+#random-input {
+    -fx-text-fill: #eef0f2;
+    -fx-border-color: #a2999e;
+    -fx-border-radius: 0px;
+    -fx-background-color: #353b3c;
+    -fx-border-width: 3px;
+}
+
+#toggle-btn {
+    -fx-cursor: hand;
+    -fx-text-fill: #eef0f2;
+    -fx-border-color: #846a6a;
+    -fx-border-radius: 0px;
+    -fx-background-color: #846a6a;
+    -fx-border-width: 3px;
+    -fx-background-radius: 0;
+}
+
+#toggle-btn:hover {
+    -fx-background-color: #705a5a;
+    -fx-border-color: #705a5a;
+}
+#toggle-btn:focused{
+    -fx-background-insets: 0 0 -1px 0;
+}
